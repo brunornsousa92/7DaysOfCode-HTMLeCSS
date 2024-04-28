@@ -36,7 +36,7 @@ button {
     font-weight: 500;
     background: none;
     color: var(--text-color);
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'Inter', sans-serif;
 }
 
@@ -50,7 +50,7 @@ button {
     padding: 6rem 0;
 }
 
-.cabecalho span {
+.cabecalho span, .metricas-container span {
     font-weight: 600;
     color: var(--main-color);
 }
@@ -66,4 +66,29 @@ button {
     font-size: 1.25rem;
     color: var(--text-color);
     line-height: 30px;
+}
+
+.metricas-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6rem 6rem 6rem;
+    padding: 0 2rem;
+    gap: 2rem;
+}
+
+.metricas-container span {
+    font-size: 3.75rem;
+}
+
+.metricas-container h2 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--second-color);
+    margin-top: 12px;
+}
+
+.metricas-container p {
+    color: var(--text-color);
+    line-height: 24px;
+    margin-top: 8px;
 }
