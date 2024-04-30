@@ -49,7 +49,7 @@ button {
     color: #FFFFFF;
 }
 
-.cabecalho, .vagas-container {
+.cabecalho {
     text-align: center;
     padding: 6rem 0;
 }
@@ -102,6 +102,11 @@ button {
     margin-top: 0.5rem;
 }
 
+.vagas-container {
+    text-align: center;
+    padding: 4rem 0;
+}
+
 .vagas-container span {
     font-size: 0.875rem;
     font-weight: 500;
@@ -124,3 +129,35 @@ button {
     font-size: var(--text-paragraph);
     color: var(--text-color);
 }
+
+.anuncio-vaga {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.titulo-vaga {
+    font-size: var(--text-paragraph);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.informacoes {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #EAECF0;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    line-height: 2rem;
+}
+
+.titulo-cargo {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--second-color);
+}
+
+.informacoes-cargo {
+    font-size: 1rem;
+    color: var(--text-color);
+    padding: 0 1.5rem 0 0;
+}
+
