@@ -54,7 +54,7 @@ button {
     padding: 6rem 0;
 }
 
-.cabecalho span, .metricas-container span {
+.cabecalho span, .metricas-container span, .depoimentos span {
     font-weight: 600;
     color: var(--main-color);
 }
@@ -104,7 +104,7 @@ button {
 
 .vagas-container {
     text-align: center;
-    padding: 4rem 0;
+    padding: 4rem 0 0 0;
 }
 
 .vagas-container span {
@@ -116,7 +116,7 @@ button {
     border-radius: 1rem;
 }
 
-.vagas-container h2 {
+.vagas-container h2, .depoimentos h2 {
     margin-top: 1rem;
     font-size: var(--text-subtitle);
     font-weight: 600;
@@ -133,6 +133,10 @@ button {
 .anuncio-vaga {
     margin: 0 auto;
     width: 50%;
+}
+
+.anuncio-titulo {
+    margin-top: 4rem;
 }
 
 .titulo-vaga {
@@ -159,5 +163,32 @@ button {
     font-size: 1rem;
     color: var(--text-color);
     padding: 0 1.5rem 0 0;
+}
+
+.depoimentos {
+    background-color: rgba(142, 36, 36, 0.1);
+    margin: 6rem;
+    text-align: center;
+    padding: 4rem;
+    border-radius: 1rem;
+}
+
+.depoimentos span {
+    font-size: 0.875rem;
+}
+
+.depoimentos h2 {
+    margin-bottom: 2rem;
+}
+
+.depoimentos h5 {
+    margin: 1rem 0 0.25rem;
+    font-weight: 500;
+    color: var(--second-color);
+}
+
+.depoimentos p {
+    color: var(--text-color);
+    font-size: 0.875rem;
 }
 
