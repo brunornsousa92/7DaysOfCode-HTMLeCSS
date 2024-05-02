@@ -116,7 +116,7 @@ button {
     border-radius: 1rem;
 }
 
-.vagas-container h2, .depoimentos h2 {
+.vagas-container h2, .depoimentos h2, .rodape h2 {
     margin-top: 1rem;
     font-size: var(--text-subtitle);
     font-weight: 600;
@@ -126,6 +126,9 @@ button {
 .vagas-container p {
     margin-top: 1.25rem;
     margin-bottom: 4rem;
+}
+
+.vagas-container p, .rodape p {
     font-size: var(--text-paragraph);
     color: var(--text-color);
 }
@@ -145,8 +148,7 @@ button {
     margin-bottom: 2rem;
 }
 .informacoes {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
     border: 1px solid #EAECF0;
     padding: 1.5rem;
     border-radius: 1rem;
@@ -190,5 +192,34 @@ button {
 .depoimentos p {
     color: var(--text-color);
     font-size: 0.875rem;
+}
+
+.rodape {
+    background: #F9FAFB;
+    text-align: center;
+    padding: 5rem 0 6rem;
+}
+
+.rodape p {
+    margin: 1.25rem 0 2.5rem;
+}
+
+.rodape input {
+    width: 22.5rem;
+    padding: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: var(--text-color);
+    border: 1px solid #D0D5DD;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    outline: none;
+}
+
+.reservado {
+    font-size: 1rem!important;
+    font-weight: 400;
+    margin: 2rem 0 0!important;
+    color: #98A2B3!important;
 }
 
